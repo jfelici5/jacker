@@ -1,7 +1,14 @@
 import ReactDOM from 'react-dom';
 import React, { Component } from 'react';
-import {Modal, Button} from 'antd';
+import {Modal, Button, Input, InputNumber} from 'antd';
 
+const layout = {
+    labelCol: { span: 8 },
+    wrapperCol: { span: 16 },
+  };
+  const tailLayout = {
+    wrapperCol: { offset: 8, span: 16 },
+  };
 
 class Form extends React.Component{
     constructor(props) {
@@ -55,7 +62,44 @@ class Form extends React.Component{
     render(){
         return (
             <div>
-            <form id = "myform">
+            <form>
+            <label>
+                Current GPA:                    
+            </label>
+            <input type = 'number' 
+            step = "0.01" 
+            value = {this.state.currentGPA}                onChange = {this.handleGPAChange} />
+            <label>
+                Desired GPA:                    
+            </label>
+            <input type = 'number'
+            step = '0.01'
+            value = {this.state.desiredGPA}
+               onChange = {this.handleDesiredChange}
+                />
+                <Button type = "button" onClick={this.showModal}>
+                    Submit
+                </Button>
+                <Modal
+                    title="Basic Modal"
+                    visible={this.state.visible}
+                    onOk={this.handleOk}
+                    onCancel={this.handleCancel}
+                    >
+                    <p></p>
+                    <p>Some contents...</p>
+                    <p>Some contents...</p>
+                </Modal>
+
+                
+                </form>
+            
+            </div>
+        )
+    }
+}
+
+/*
                 <label>
                     Current GPA:                    
                 </label>
@@ -71,29 +115,8 @@ class Form extends React.Component{
                 value = {this.state.desiredGPA}
                 onChange = {this.handleDesiredChange}
                 />
-                <Button type = "button" onClick={this.showModal}>
-                    Submit
-                </Button>
-                <Modal
-                    title="Basic Modal"
-                    visible={this.state.visible}
-                    onOk={this.handleOk}
-                    onCancel={this.handleCancel}
-                    >
-                    <p>Some contents...</p>
-                    <p>Some contents...</p>
-                    <p>Some contents...</p>
-                </Modal>
 
-                
-            </form>
-            
-            </div>
-        )
-    }
-}
-
-
+                */
 
 
 export default Form
