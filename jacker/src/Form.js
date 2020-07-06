@@ -15,8 +15,11 @@ class Form extends React.Component{
         super(props)
 
         this.state = {
+            completedUnits: 0,
+            eventualUnits: 0,
             currentGPA: 0,
-            desiredGPA: 0
+            desiredGPA: 0,
+            neededGPA: 0
         }
     }
 
@@ -27,9 +30,22 @@ class Form extends React.Component{
         })
     }
 
+    handleCompletedUnitsChange = (event) => {
+        this.setState({
+            completedUnits: event.target.value
+        })
+    }
+    
+    handleEventualUnitsChange = (event) => {
+        this.setState({
+            eventualUnits: event.target.value
+        })
+    }
+
     handleDesiredChange = (event) => {
         this.setState({
-            desiredGPA: event.target.value
+            desiredGPA: event.target.value,
+            neededGPA: (this.state.currentGPA*5)
         })
     }
 
@@ -64,11 +80,26 @@ class Form extends React.Component{
             <div>
             <form>
             <label>
+                Completed Units:                    
+            </label>
+            <input type = 'number' 
+            step = ".5" 
+            value = {this.state.completedUnits}
+            onChange = {this.handleCompletedUnitsChange} />
+            <label>
+                Eventual Units:                    
+            </label>
+            <input type = 'number' 
+            step = ".5" 
+            value = {this.state.eventualUnits}
+            onChange = {this.handleEventualUnitsChange} />
+            <label>
                 Current GPA:                    
             </label>
             <input type = 'number' 
-            step = "0.01" 
-            value = {this.state.currentGPA}                onChange = {this.handleGPAChange} />
+            step = "0.5" 
+            value = {this.state.currentGPA}
+            onChange = {this.handleGPAChange} />
             <label>
                 Desired GPA:                    
             </label>
@@ -86,7 +117,7 @@ class Form extends React.Component{
                     onOk={this.handleOk}
                     onCancel={this.handleCancel}
                     >
-                    <p></p>
+                    <p> You need a GPA of {this.state.neededGPA}</p>
                     <p>Some contents...</p>
                     <p>Some contents...</p>
                 </Modal>
