@@ -56,16 +56,31 @@ class Calc extends React.Component{
     state = { visible: false };
 
     showModal = () => {
-        if(this.state.desiredGPA !='' 
+        if (((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)) < 0
+        && this.state.desiredGPA !='' 
+        && this.state.currentGPA!=''
+        && this.state.completedUnits!=''
+        && this.state.remainingUnits!=''){
+            this.setState({
+                visible: true,
+                coolGPA: 0
+            })
+        }
+
+        if(((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)) > 0
+        && this.state.desiredGPA !='' 
         && this.state.currentGPA!=''
         && this.state.completedUnits!=''
         && this.state.remainingUnits!=''){
         this.setState({
         visible: true,
-        coolGPA: (((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)
+        coolGPA: ((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2))
         
     });
+        
         }
+
+
     };
   
     handleOk = e => {
