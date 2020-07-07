@@ -48,10 +48,6 @@ class Calc extends React.Component{
         })
     }
 
-    myFunction = () => {
-        this.props.updateItem(this.state)
-      }
-
     //pop-up function displaying statistics
      showModal = () => {
         
@@ -117,7 +113,6 @@ class Calc extends React.Component{
     }
 
     };
-
 
     modal = async() =>{
 
