@@ -1,6 +1,5 @@
-import ReactDOM from 'react-dom';
-import React, { Component } from 'react';
-import {Modal, Button, Input, InputNumber, Form} from 'antd';
+import React from 'react';
+import {Modal, Button, InputNumber, Form} from 'antd';
 
 const layout = {
     labelCol: { span: 8 },
@@ -110,8 +109,7 @@ class Calc extends React.Component{
                 coolGPA: ((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)),
                 }, this.modal);
             }
-    }
-
+        }
     };
 
     modal = async() =>{
@@ -153,54 +151,44 @@ class Calc extends React.Component{
     render(){
         return (
             <div>
-            <Form
-            {...layout}
-            name ="basic" 
-            >
-            <Form.Item
-            label = 'Completed units'
-            name = "completedUnits"
-            rules={[{ required: true, message: "This field is required"}]}
-            >
-                <InputNumber 
-                onChange = {this.handleCompletedUnitsChange}/>
-            </Form.Item>
-            <Form.Item
-            label= "Remaining units"
-            name = "remainingUnits"
-            rules={[{ required: true, message: "This field is required" }]}
-            >
-                <InputNumber 
-                onChange = {this.handleRemainingUnitsChange}/>
-            </Form.Item>
-            
-            <Form.Item
-            label = "Current GPA"
-            name = "currentGPA"
-            rules={[{ required: true, message: "This field is required"}]}
-            >
-                <InputNumber 
-                onChange = {this.handleGPAChange}/>
-            </Form.Item>
-            <Form.Item
-            label = "Desired GPA"
-            name = "desiredGPA"
-            rules={[{ required: true, message: "This field is required"}]}>
-            <InputNumber 
-            onChange = {this.handleDesiredChange}/>
-            </Form.Item>
-            
-            
-            <Form.Item
-            {...tailLayout}>
-                <Button type = "primary" htmlType = "submit" onClick={this.showModal}>
-                    Submit
-                </Button>
-
-            </Form.Item>
-                
-        </Form>
-            
+                <Form
+                {...layout}
+                name ="basic" >
+                    <Form.Item
+                    label = 'Completed units'
+                    name = "completedUnits"
+                    rules={[{ required: true, message: "This field is required"}]}>
+                        <InputNumber 
+                        onChange = {this.handleCompletedUnitsChange}/>
+                    </Form.Item>
+                    <Form.Item
+                    label= "Remaining units"
+                    name = "remainingUnits"
+                    rules={[{ required: true, message: "This field is required" }]}>
+                        <InputNumber 
+                        onChange = {this.handleRemainingUnitsChange}/>
+                    </Form.Item>
+                    <Form.Item
+                    label = "The GPA I have"
+                    name = "currentGPA"
+                    rules={[{ required: true, message: "This field is required"}]}>
+                        <InputNumber 
+                        onChange = {this.handleGPAChange}/>
+                    </Form.Item>
+                    <Form.Item
+                    label = "The GPA I want"
+                    name = "desiredGPA"
+                    rules={[{ required: true, message: "This field is required"}]}>
+                        <InputNumber 
+                        onChange = {this.handleDesiredChange}/>
+                    </Form.Item>
+                    <Form.Item
+                    {...tailLayout}>
+                        <Button type = "primary" htmlType = "submit" onClick={this.showModal}>
+                            What GPA do I need?
+                        </Button>
+                    </Form.Item>
+            </Form>
         </div>
         )
     }
