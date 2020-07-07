@@ -2,10 +2,6 @@ import ReactDOM from 'react-dom';
 import React, { Component } from 'react';
 import {Modal, Button, Input, InputNumber, Form} from 'antd';
 
-//desiredpoints = (desiredGPA*totalCredits)-(currentGPA*completedCredits)
-//thus, 
-//desiredPoints = (4*16)-(4*12)
-
 const layout = {
     labelCol: { span: 8 },
     wrapperCol: { span: 16 },
@@ -52,9 +48,11 @@ class Calc extends React.Component{
         })
     }
 
+    //pop-up function displaying statistics
     state = { visible: false };
-
     showModal = () => {
+        
+        //condition for if requiredGPA results in a negative number
         if (((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)) < 0
         && this.state.desiredGPA !='' 
         && this.state.currentGPA!=''
@@ -67,6 +65,7 @@ class Calc extends React.Component{
             })
         }
 
+        //conditions for positive required GPAs
         if(((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)) > 0
         && this.state.desiredGPA !='' 
         && this.state.currentGPA!=''
