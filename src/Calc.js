@@ -48,9 +48,12 @@ class Calc extends React.Component{
         })
     }
 
+    myFunction = () => {
+        this.props.updateItem(this.state)
+      }
+
     //pop-up function displaying statistics
-    state = { visible: false };
-    showModal = () => {
+     showModal = () => {
         
         //condition for if requiredGPA results in a negative number
         if (((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)) < 0
@@ -59,14 +62,13 @@ class Calc extends React.Component{
         && this.state.completedUnits!=''
         && this.state.remainingUnits!=''){
             this.setState({
-                visible: true,
                 coolGPA: (0.00).toFixed(2),
                 gpaMessage: 'Time to PAR-TAYYY!!'
-            })
+            }, this.modal);
         }
 
         //conditions for positive required GPAs
-        if(((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)) > 0
+        else if(((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)) > 0
         && this.state.desiredGPA !='' 
         && this.state.currentGPA!=''
         && this.state.completedUnits!=''
@@ -74,54 +76,62 @@ class Calc extends React.Component{
             if(((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)) > 4){
                 this.setState({
                 gpaMessage: 'Is that even possible?!!!',
-                visible: true,
                 coolGPA: ((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)),
-                });
+                }, this.modal);
             }else if(((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)) > 3.5){
                 this.setState({
                 gpaMessage: "It's time to hit the books!",
-                visible: true,
                 coolGPA: ((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)),
-                });
+                }, this.modal);
             }else if(((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)) > 3){
                 this.setState({
                 gpaMessage: 'You got this!',
-                visible: true,
                 coolGPA: ((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)),
-                });
+                }, this.modal);
             }else if(((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)) > 2.5){
                 this.setState({
                 gpaMessage: 'Just a little practice, and you should be fine!',
-                visible: true,
                 coolGPA: ((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)),
-                });
+                }, this.modal);
             }else if(((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)) > 2){
                 this.setState({
                 gpaMessage: "Now don't start skipping class toooooo much",
-                visible: true,
                 coolGPA: ((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)),
-                });
+                }, this.modal);
             }else if(((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)) > 1.5){
                 this.setState({
                 gpaMessage: 'I have a feeling that things are gonna be okay',
-                visible: true,
                 coolGPA: ((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)),
-                });
+                }, this.modal);
             }else if(((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)) > 1){
                 this.setState({
                 gpaMessage: "Congrats! You've earned yourself some free time!",
-                visible: true,
                 coolGPA: ((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)),
-                });
+                }, this.modal);
             }else if(((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)) > 0){
                 this.setState({
                 gpaMessage: "Time to PAR-TAY!",
-                visible: true,
                 coolGPA: ((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)),
-                });
+                }, this.modal);
             }
     }
+
     };
+
+
+    modal = async() =>{
+
+        Modal.info({
+            title: this.state.gpaMessage,
+            content: (
+              <div>
+                <p>You need a GPA of {this.state.coolGPA} for the remainder of your courses to achieve an overall GPA of {this.state.desiredGPA}</p>
+                <p></p>
+              </div>
+            ),
+            onOk() {},
+          });
+    }
   
     handleOk = e => {
       console.log(e);
@@ -153,7 +163,7 @@ class Calc extends React.Component{
             name ="basic" 
             >
             <Form.Item
-            label = "Completed units"
+            label = 'Completed units'
             name = "completedUnits"
             rules={[{ required: true, message: "This field is required"}]}
             >
@@ -161,13 +171,14 @@ class Calc extends React.Component{
                 onChange = {this.handleCompletedUnitsChange}/>
             </Form.Item>
             <Form.Item
-            label = "Remaining units"
+            label= "Remaining units"
             name = "remainingUnits"
             rules={[{ required: true, message: "This field is required" }]}
             >
                 <InputNumber 
                 onChange = {this.handleRemainingUnitsChange}/>
             </Form.Item>
+            
             <Form.Item
             label = "Current GPA"
             name = "currentGPA"
@@ -191,17 +202,6 @@ class Calc extends React.Component{
                     Submit
                 </Button>
 
-                <Modal
-                    title="Basic Modal"
-                    visible={this.state.visible}
-                    onOk={this.handleOk}
-                    onCancel={this.handleCancel}
-                    coolGPA = {this.state.coolGPA}
-                    gpaMessage = {this.state.gpaMessage}>
-                    <p> You need a minimum GPA of {this.state.coolGPA} across your remaining courses to achieve a total GPA of {this.state.desiredGPA}</p>
-                    <p>{this.state.gpaMessage}</p>
-                    <p>Some contents...</p>
-                </Modal>
             </Form.Item>
                 
         </Form>
