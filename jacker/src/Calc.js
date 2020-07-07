@@ -24,7 +24,7 @@ class Calc extends React.Component{
             currentGPA: 0,
             desiredGPA: 0,
             neededGPA: 0,
-            desiredPoints: ((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits))),
+            gpaMessage: '',
         }
     }
 
@@ -62,7 +62,8 @@ class Calc extends React.Component{
         && this.state.remainingUnits!=''){
             this.setState({
                 visible: true,
-                coolGPA: 0
+                coolGPA: (0.00).toFixed(2),
+                gpaMessage: 'Time to PAR-TAYYY!!'
             })
         }
 
@@ -71,12 +72,56 @@ class Calc extends React.Component{
         && this.state.currentGPA!=''
         && this.state.completedUnits!=''
         && this.state.remainingUnits!=''){
-        this.setState({
-        visible: true,
-        coolGPA: ((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2))
-        
-    });
-        }
+            if(((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)) > 4){
+                this.setState({
+                gpaMessage: 'Is that even possible?!!!',
+                visible: true,
+                coolGPA: ((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)),
+                });
+            }else if(((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)) > 3.5){
+                this.setState({
+                gpaMessage: "It's time to hit the books!",
+                visible: true,
+                coolGPA: ((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)),
+                });
+            }else if(((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)) > 3){
+                this.setState({
+                gpaMessage: 'You got this!',
+                visible: true,
+                coolGPA: ((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)),
+                });
+            }else if(((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)) > 2.5){
+                this.setState({
+                gpaMessage: 'Just a little practice, and you should be fine!',
+                visible: true,
+                coolGPA: ((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)),
+                });
+            }else if(((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)) > 2){
+                this.setState({
+                gpaMessage: "Now don't start skipping class toooooo much",
+                visible: true,
+                coolGPA: ((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)),
+                });
+            }else if(((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)) > 1.5){
+                this.setState({
+                gpaMessage: 'I have a feeling that things are gonna be okay',
+                visible: true,
+                coolGPA: ((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)),
+                });
+            }else if(((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)) > 1){
+                this.setState({
+                gpaMessage: "Congrats! You've earned yourself some free time!",
+                visible: true,
+                coolGPA: ((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)),
+                });
+            }else if(((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)) > 0){
+                this.setState({
+                gpaMessage: "Time to PAR-TAY!",
+                visible: true,
+                coolGPA: ((((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)),
+                });
+            }
+    }
     };
   
     handleOk = e => {
@@ -111,7 +156,7 @@ class Calc extends React.Component{
             <Form.Item
             label = "Completed units"
             name = "completedUnits"
-            rules={[{ required: true}]}
+            rules={[{ required: true, message: "This field is required"}]}
             >
                 <InputNumber 
                 onChange = {this.handleCompletedUnitsChange}/>
@@ -119,7 +164,7 @@ class Calc extends React.Component{
             <Form.Item
             label = "Remaining units"
             name = "remainingUnits"
-            rules={[{ required: true }]}
+            rules={[{ required: true, message: "This field is required" }]}
             >
                 <InputNumber 
                 onChange = {this.handleRemainingUnitsChange}/>
@@ -127,7 +172,7 @@ class Calc extends React.Component{
             <Form.Item
             label = "Current GPA"
             name = "currentGPA"
-            rules={[{ required: true}]}
+            rules={[{ required: true, message: "This field is required"}]}
             >
                 <InputNumber 
                 onChange = {this.handleGPAChange}/>
@@ -135,7 +180,7 @@ class Calc extends React.Component{
             <Form.Item
             label = "Desired GPA"
             name = "desiredGPA"
-            rules={[{ required: true}]}>
+            rules={[{ required: true, message: "This field is required"}]}>
             <InputNumber 
             onChange = {this.handleDesiredChange}/>
             </Form.Item>
@@ -152,10 +197,10 @@ class Calc extends React.Component{
                     visible={this.state.visible}
                     onOk={this.handleOk}
                     onCancel={this.handleCancel}
-                    coolGPA = {this.state.coolGPA}                
-                >
+                    coolGPA = {this.state.coolGPA}
+                    gpaMessage = {this.state.gpaMessage}>
                     <p> You need a minimum GPA of {this.state.coolGPA} across your remaining courses to achieve a total GPA of {this.state.desiredGPA}</p>
-                    <p>Some contents...</p>
+                    <p>{this.state.gpaMessage}</p>
                     <p>Some contents...</p>
                 </Modal>
             </Form.Item>
