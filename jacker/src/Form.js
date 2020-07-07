@@ -2,6 +2,10 @@ import ReactDOM from 'react-dom';
 import React, { Component } from 'react';
 import {Modal, Button, Input, InputNumber} from 'antd';
 
+//desiredpoints = (desiredGPA*totalCredits)-(currentGPA*completedCredits)
+//thus, 
+//desiredPoints = (4*16)-(4*12)
+
 const layout = {
     labelCol: { span: 8 },
     wrapperCol: { span: 16 },
@@ -19,33 +23,33 @@ class Form extends React.Component{
             eventualUnits: 0,
             currentGPA: 0,
             desiredGPA: 0,
-            neededGPA: 0
+            neededGPA: 0,
+            desiredPoints: ((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits))),
         }
     }
 
-
     handleGPAChange = (event) => {
         this.setState({
-            currentGPA: event.target.value
+            currentGPA: event.target.value,
         })
     }
 
     handleCompletedUnitsChange = (event) => {
         this.setState({
-            completedUnits: event.target.value
+            completedUnits: event.target.value,
         })
     }
     
-    handleEventualUnitsChange = (event) => {
+    handleRemainingUnitsChange = (event) => {
         this.setState({
-            eventualUnits: event.target.value
+            remainingUnits: event.target.value,
         })
     }
 
     handleDesiredChange = (event) => {
         this.setState({
             desiredGPA: event.target.value,
-            neededGPA: (this.state.currentGPA*5)
+
         })
     }
 
@@ -58,7 +62,9 @@ class Form extends React.Component{
     showModal = () => {
       this.setState({
         visible: true,
-      });
+ 
+    });
+
     };
   
     handleOk = e => {
@@ -87,12 +93,12 @@ class Form extends React.Component{
             value = {this.state.completedUnits}
             onChange = {this.handleCompletedUnitsChange} />
             <label>
-                Eventual Units:                    
+                Remaining Units:                    
             </label>
             <input type = 'number' 
             step = ".5" 
-            value = {this.state.eventualUnits}
-            onChange = {this.handleEventualUnitsChange} />
+            value = {this.state.remainingUnits}
+            onChange = {this.handleRemainingUnitsChange} />
             <label>
                 Current GPA:                    
             </label>
@@ -116,8 +122,10 @@ class Form extends React.Component{
                     visible={this.state.visible}
                     onOk={this.handleOk}
                     onCancel={this.handleCancel}
-                    >
-                    <p> You need a GPA of {this.state.neededGPA}</p>
+                    
+
+                >
+                    <p> You need a minimum GPA of {((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits} across your remaining courses to achieve a total GPA of {this.state.desiredGPA}</p>
                     <p>Some contents...</p>
                     <p>Some contents...</p>
                 </Modal>
