@@ -11,7 +11,7 @@ const layout = {
     wrapperCol: { span: 16 },
   };
   const tailLayout = {
-    wrapperCol: { offset: 8, span: 16 },
+    wrapperCol: { offset: 8, span: 40 },
   };
 
 class Calc extends React.Component{
@@ -56,12 +56,16 @@ class Calc extends React.Component{
     state = { visible: false };
 
     showModal = () => {
-      this.setState({
+        if(this.state.desiredGPA !='' 
+        && this.state.currentGPA!=''
+        && this.state.completedUnits!=''
+        && this.state.remainingUnits!=''){
+        this.setState({
         visible: true,
-        coolGPA: ((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits
- 
+        coolGPA: (((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits).toFixed(2)
+        
     });
-
+        }
     };
   
     handleOk = e => {
@@ -96,6 +100,7 @@ class Calc extends React.Component{
             <Form.Item
             label = "Completed units"
             name = "completedUnits"
+            rules={[{ required: true}]}
             >
                 <InputNumber 
                 onChange = {this.handleCompletedUnitsChange}/>
@@ -103,6 +108,7 @@ class Calc extends React.Component{
             <Form.Item
             label = "Remaining units"
             name = "remainingUnits"
+            rules={[{ required: true }]}
             >
                 <InputNumber 
                 onChange = {this.handleRemainingUnitsChange}/>
@@ -110,6 +116,7 @@ class Calc extends React.Component{
             <Form.Item
             label = "Current GPA"
             name = "currentGPA"
+            rules={[{ required: true}]}
             >
                 <InputNumber 
                 onChange = {this.handleGPAChange}/>
@@ -117,32 +124,34 @@ class Calc extends React.Component{
             <Form.Item
             label = "Desired GPA"
             name = "desiredGPA"
-            >
-                <InputNumber 
-                onChange = {this.handleDesiredChange}/>
+            rules={[{ required: true}]}>
+            <InputNumber 
+            onChange = {this.handleDesiredChange}/>
             </Form.Item>
             
             
-                <Button type = "button" onClick={this.showModal}>
+            <Form.Item
+            {...tailLayout}>
+                <Button type = "primary" htmlType = "submit" onClick={this.showModal}>
                     Submit
                 </Button>
+
                 <Modal
                     title="Basic Modal"
                     visible={this.state.visible}
                     onOk={this.handleOk}
                     onCancel={this.handleCancel}
-                    coolGPA = {this.state.coolGPA}                    
-
+                    coolGPA = {this.state.coolGPA}                   
                 >
                     <p> You need a minimum GPA of {this.state.coolGPA} across your remaining courses to achieve a total GPA of {this.state.desiredGPA}</p>
                     <p>Some contents...</p>
                     <p>Some contents...</p>
                 </Modal>
-
+            </Form.Item>
                 
-            </Form>
+        </Form>
             
-            </div>
+        </div>
         )
     }
 }
