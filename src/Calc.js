@@ -158,28 +158,38 @@ class Calc extends React.Component{
                     label = 'Completed units'
                     name = "completedUnits"
                     rules={[{ required: true, message: "This field is required"}]}>
-                        <InputNumber 
+                        <InputNumber
+                        min = {0}
+                        placeholder="(e.g. 32.0)" 
                         onChange = {this.handleCompletedUnitsChange}/>
                     </Form.Item>
                     <Form.Item
                     label= "Remaining units"
                     name = "remainingUnits"
                     rules={[{ required: true, message: "This field is required" }]}>
-                        <InputNumber 
+                        <InputNumber
+                        min = {0}
+                        placeholder="(e.g. 16.0)" 
                         onChange = {this.handleRemainingUnitsChange}/>
                     </Form.Item>
                     <Form.Item
                     label = "The GPA I have"
                     name = "currentGPA"
                     rules={[{ required: true, message: "This field is required"}]}>
-                        <InputNumber 
+                        <InputNumber
+                        min = {0}
+                        step={.01}
+                        placeholder="(e.g. 3.60)" 
                         onChange = {this.handleGPAChange}/>
                     </Form.Item>
                     <Form.Item
                     label = "The GPA I want"
                     name = "desiredGPA"
                     rules={[{ required: true, message: "This field is required"}]}>
-                        <InputNumber 
+                        <InputNumber
+                        min = {0}
+                        step={.01}
+                        placeholder="(e.g. 3.80)"  
                         onChange = {this.handleDesiredChange}/>
                     </Form.Item>
                     <Form.Item
