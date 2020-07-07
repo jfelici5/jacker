@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Form from'./Form.js';
+import Calc from'./Calc.js';
 import {Button} from 'antd';
 
 function App(){
