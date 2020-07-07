@@ -62,6 +62,7 @@ class Form extends React.Component{
     showModal = () => {
       this.setState({
         visible: true,
+        coolGPA: ((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits
  
     });
 
@@ -122,10 +123,10 @@ class Form extends React.Component{
                     visible={this.state.visible}
                     onOk={this.handleOk}
                     onCancel={this.handleCancel}
-                    
+                    coolGPA = {this.state.coolGPA}                    
 
                 >
-                    <p> You need a minimum GPA of {((parseFloat(this.state.desiredGPA)*(parseFloat(this.state.completedUnits)+parseFloat(this.state.remainingUnits))) - (parseFloat(this.state.currentGPA)*parseFloat(this.state.completedUnits)))/this.state.remainingUnits} across your remaining courses to achieve a total GPA of {this.state.desiredGPA}</p>
+                    <p> You need a minimum GPA of {this.state.coolGPA} across your remaining courses to achieve a total GPA of {this.state.desiredGPA}</p>
                     <p>Some contents...</p>
                     <p>Some contents...</p>
                 </Modal>
