@@ -53,10 +53,6 @@ class Form extends React.Component{
         })
     }
 
-    handleSubmit = (event) => {
-        console.log(this.state.currentGPA)
-    }
-
     state = { visible: false };
 
     showModal = () => {
@@ -138,25 +134,5 @@ class Form extends React.Component{
         )
     }
 }
-
-/*
-                <label>
-                    Current GPA:                    
-                </label>
-                <input type = 'number' 
-                step = "0.01" 
-                value = {this.state.currentGPA}
-                onChange = {this.handleGPAChange} />
-                <label>
-                    Desired GPA:                    
-                </label>
-                <input type = 'number'
-                step = '0.01'
-                value = {this.state.desiredGPA}
-                onChange = {this.handleDesiredChange}
-                />
-
-                */
-
 
 export default Form
