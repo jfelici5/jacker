@@ -1,0 +1,1309 @@
+{
+    "Admissions Statistics": [
+        {
+            "School": "Yale University",
+            "Ranking": "1",
+            "Statistics": {
+                "Acceptance Rate": "10%",
+                "Median GPA": "3.93",
+                "Median LSAT": "173"
+            }
+        },
+        {
+            "School": "Harvard University",
+            "Ranking": "2",
+            "Statistics": {
+                "Acceptance Rate": "18%",
+                "Median GPA": "3.86",
+                "Median LSAT": "173"
+            }
+        },
+        {
+            "School": "Stanford University",
+            "Ranking": "2",
+            "Statistics": {
+                "Acceptance Rate": "11%",
+                "Median GPA": "3.89",
+                "Median LSAT": "171"
+            }
+        },
+        {
+            "School": "University of Chicago",
+            "Ranking": "4",
+            "Statistics": {
+                "Acceptance Rate": "22%",
+                "Median GPA": "3.9",
+                "Median LSAT": "170"
+            }
+        },
+        {
+            "School": "Columbia University",
+            "Ranking": "4",
+            "Statistics": {
+                "Acceptance Rate": "22%",
+                "Median GPA": "3.7",
+                "Median LSAT": "171"
+            }
+        },
+        {
+            "School": "New York University",
+            "Ranking": "6",
+            "Statistics": {
+                "Acceptance Rate": "33%",
+                "Median GPA": "3.78",
+                "Median LSAT": "169"
+            }
+        },
+        {
+            "School": "University of Pennsylvania",
+            "Ranking": "7",
+            "Statistics": {
+                "Acceptance Rate": "19%",
+                "Median GPA": "3.89",
+                "Median LSAT": "169"
+            }
+        },
+        {
+            "School": "University of Michigan Ann Arbor",
+            "Ranking": "8",
+            "Statistics": {
+                "Acceptance Rate": "28%",
+                "Median GPA": "3.76",
+                "Median LSAT": "168"
+            }
+        },
+        {
+            "School": "University of Virginia",
+            "Ranking": "8",
+            "Statistics": {
+                "Acceptance Rate": "20%",
+                "Median GPA": "3.86",
+                "Median LSAT": "168"
+            }
+        },
+        {
+            "School": "University of California Berkeley",
+            "Ranking": "8",
+            "Statistics": {
+                "Acceptance Rate": "21%",
+                "Median GPA": "3.78",
+                "Median LSAT": "166"
+            }
+        },
+        {
+            "School": "Duke University",
+            "Ranking": "11",
+            "Statistics": {
+                "Acceptance Rate": "23%",
+                "Median GPA": "3.76",
+                "Median LSAT": "169"
+            }
+        },
+        {
+            "School": "Northwestern University",
+            "Ranking": "12",
+            "Statistics": {
+                "Acceptance Rate": "23%",
+                "Median GPA": "3.77",
+                "Median LSAT": "168"
+            }
+        },
+        {
+            "School": "Cornell University",
+            "Ranking": "13",
+            "Statistics": {
+                "Acceptance Rate": "31%",
+                "Median GPA": "3.74",
+                "Median LSAT": "167"
+            }
+        },
+        {
+            "School": "Georgetown University",
+            "Ranking": "14",
+            "Statistics": {
+                "Acceptance Rate": "25%",
+                "Median GPA": "3.76",
+                "Median LSAT": "167"
+            }
+        },
+        {
+            "School": "University of Texas Austin",
+            "Ranking": "15",
+            "Statistics": {
+                "Acceptance Rate": "22%",
+                "Median GPA": "3.73",
+                "Median LSAT": "167"
+            }
+        },
+        {
+            "School": "Vanderbilt University",
+            "Ranking": "16",
+            "Statistics": {
+                "Acceptance Rate": "38%",
+                "Median GPA": "3.74",
+                "Median LSAT": "166"
+            }
+        },
+        {
+            "School": "University of California Los Angeles",
+            "Ranking": "17",
+            "Statistics": {
+                "Acceptance Rate": "30%",
+                "Median GPA": "3.74",
+                "Median LSAT": "166"
+            }
+        },
+        {
+            "School": "Washington University in St Louis",
+            "Ranking": "18",
+            "Statistics": {
+                "Acceptance Rate": "28%",
+                "Median GPA": "3.67",
+                "Median LSAT": "167"
+            }
+        },
+        {
+            "School": "University of Southern California",
+            "Ranking": "19",
+            "Statistics": {
+                "Acceptance Rate": "30%",
+                "Median GPA": "3.76",
+                "Median LSAT": "166"
+            }
+        },
+        {
+            "School": "Boston University",
+            "Ranking": "20",
+            "Statistics": {
+                "Acceptance Rate": "38%",
+                "Median GPA": "3.67",
+                "Median LSAT": "163"
+            }
+        },
+        {
+            "School": "University of Iowa",
+            "Ranking": "20",
+            "Statistics": {
+                "Acceptance Rate": "43%",
+                "Median GPA": "3.61",
+                "Median LSAT": "161"
+            }
+        },
+        {
+            "School": "University of Notre Dame",
+            "Ranking": "22",
+            "Statistics": {
+                "Acceptance Rate": "35%",
+                "Median GPA": "3.66",
+                "Median LSAT": "164"
+            }
+        },
+        {
+            "School": "Emory University",
+            "Ranking": "22",
+            "Statistics": {
+                "Acceptance Rate": "32%",
+                "Median GPA": "3.77",
+                "Median LSAT": "165"
+            }
+        },
+        {
+            "School": "University of Minnesota Twin Cities",
+            "Ranking": "22",
+            "Statistics": {
+                "Acceptance Rate": "44%",
+                "Median GPA": "3.79",
+                "Median LSAT": "164"
+            }
+        },
+        {
+            "School": "Indiana University Bloomington",
+            "Ranking": "25",
+            "Statistics": {
+                "Acceptance Rate": "53%",
+                "Median GPA": "3.76",
+                "Median LSAT": "161"
+            }
+        },
+        {
+            "School": "Arizona State University",
+            "Ranking": "25",
+            "Statistics": {
+                "Acceptance Rate": "43%",
+                "Median GPA": "3.63",
+                "Median LSAT": "161"
+            }
+        },
+        {
+            "School": "George Washington University",
+            "Ranking": "25",
+            "Statistics": {
+                "Acceptance Rate": "40%",
+                "Median GPA": "3.71",
+                "Median LSAT": "165"
+            }
+        },
+        {
+            "School": "University of Alabama",
+            "Ranking": "28",
+            "Statistics": {
+                "Acceptance Rate": "37%",
+                "Median GPA": "3.76",
+                "Median LSAT": "163"
+            }
+        },
+        {
+            "School": "University of California Irvine",
+            "Ranking": "28",
+            "Statistics": {
+                "Acceptance Rate": "27%",
+                "Median GPA": "3.56",
+                "Median LSAT": "162"
+            }
+        },
+        {
+            "School": "Ohio State University",
+            "Ranking": "30",
+            "Statistics": {
+                "Acceptance Rate": "50%",
+                "Median GPA": "3.61",
+                "Median LSAT": "159"
+            }
+        },
+        {
+            "School": "Boston College",
+            "Ranking": "30",
+            "Statistics": {
+                "Acceptance Rate": "45%",
+                "Median GPA": "3.56",
+                "Median LSAT": "162"
+            }
+        },
+        {
+            "School": "University of California Davis",
+            "Ranking": "30",
+            "Statistics": {
+                "Acceptance Rate": "31%",
+                "Median GPA": "3.51",
+                "Median LSAT": "163"
+            }
+        },
+        {
+            "School": "University of Wisconsin Madison",
+            "Ranking": "33",
+            "Statistics": {
+                "Acceptance Rate": "49%",
+                "Median GPA": "3.54",
+                "Median LSAT": "161"
+            }
+        },
+        {
+            "School": "University of Washington",
+            "Ranking": "33",
+            "Statistics": {
+                "Acceptance Rate": "27%",
+                "Median GPA": "3.65",
+                "Median LSAT": "164"
+            }
+        },
+        {
+            "School": "College of William and Mary",
+            "Ranking": "33",
+            "Statistics": {
+                "Acceptance Rate": "36%",
+                "Median GPA": "3.69",
+                "Median LSAT": "163"
+            }
+        },
+        {
+            "School": "University of Georgia",
+            "Ranking": "33",
+            "Statistics": {
+                "Acceptance Rate": "33%",
+                "Median GPA": "3.71",
+                "Median LSAT": "162"
+            }
+        },
+        {
+            "School": "Fordham University",
+            "Ranking": "37",
+            "Statistics": {
+                "Acceptance Rate": "35%",
+                "Median GPA": "3.53",
+                "Median LSAT": "163"
+            }
+        },
+        {
+            "School": "Whittier Law School",
+            "Ranking": "38",
+            "Statistics": {
+                "Acceptance Rate": "63%",
+                "Median GPA": "2.85",
+                "Median LSAT": "148"
+            }
+        },
+        {
+            "School": "University of North Carolina Chapel Hill",
+            "Ranking": "38",
+            "Statistics": {
+                "Acceptance Rate": "45%",
+                "Median GPA": "3.49",
+                "Median LSAT": "161"
+            }
+        },
+        {
+            "School": "Washington and Lee University",
+            "Ranking": "40",
+            "Statistics": {
+                "Acceptance Rate": "49%",
+                "Median GPA": "3.41",
+                "Median LSAT": "160"
+            }
+        },
+        {
+            "School": "University of Illinois Urbana-Champaign",
+            "Ranking": "40",
+            "Statistics": {
+                "Acceptance Rate": "46%",
+                "Median GPA": "3.51",
+                "Median LSAT": "161"
+            }
+        },
+        {
+            "School": "University of Arizona",
+            "Ranking": "40",
+            "Statistics": {
+                "Acceptance Rate": "33%",
+                "Median GPA": "3.51",
+                "Median LSAT": "160"
+            }
+        },
+        {
+            "School": "University of Colorado Boulder",
+            "Ranking": "40",
+            "Statistics": {
+                "Acceptance Rate": "46%",
+                "Median GPA": "3.6",
+                "Median LSAT": "161"
+            }
+        },
+        {
+            "School": "Wake Forest University",
+            "Ranking": "40",
+            "Statistics": {
+                "Acceptance Rate": "56%",
+                "Median GPA": "3.6",
+                "Median LSAT": "161"
+            }
+        },
+        {
+            "School": "University of Utah",
+            "Ranking": "45",
+            "Statistics": {
+                "Acceptance Rate": "47%",
+                "Median GPA": "3.57",
+                "Median LSAT": "158"
+            }
+        },
+        {
+            "School": "George Mason University",
+            "Ranking": "45",
+            "Statistics": {
+                "Acceptance Rate": "31%",
+                "Median GPA": "3.59",
+                "Median LSAT": "161"
+            }
+        },
+        {
+            "School": "Southern Methodist University",
+            "Ranking": "45",
+            "Statistics": {
+                "Acceptance Rate": "41%",
+                "Median GPA": "3.63",
+                "Median LSAT": "161"
+            }
+        },
+        {
+            "School": "University of Florida",
+            "Ranking": "48",
+            "Statistics": {
+                "Acceptance Rate": "62%",
+                "Median GPA": "3.5",
+                "Median LSAT": "157"
+            }
+        },
+        {
+            "School": "University of Maryland",
+            "Ranking": "48",
+            "Statistics": {
+                "Acceptance Rate": "54%",
+                "Median GPA": "3.46",
+                "Median LSAT": "157"
+            }
+        },
+        {
+            "School": "Touro College",
+            "Ranking": "50",
+            "Statistics": {
+                "Acceptance Rate": "61%",
+                "Median GPA": "3.03",
+                "Median LSAT": "147"
+            }
+        },
+        {
+            "School": "University of California Hastings",
+            "Ranking": "50",
+            "Statistics": {
+                "Acceptance Rate": "42%",
+                "Median GPA": "3.5",
+                "Median LSAT": "159"
+            }
+        },
+        {
+            "School": "Florida State University",
+            "Ranking": "50",
+            "Statistics": {
+                "Acceptance Rate": "44%",
+                "Median GPA": "3.52",
+                "Median LSAT": "158"
+            }
+        },
+        {
+            "School": "Tulane University",
+            "Ranking": "50",
+            "Statistics": {
+                "Acceptance Rate": "60%",
+                "Median GPA": "3.42",
+                "Median LSAT": "159"
+            }
+        },
+        {
+            "School": "University of Houston",
+            "Ranking": "50",
+            "Statistics": {
+                "Acceptance Rate": "38%",
+                "Median GPA": "3.54",
+                "Median LSAT": "159"
+            }
+        },
+        {
+            "School": "University of Richmond",
+            "Ranking": "55",
+            "Statistics": {
+                "Acceptance Rate": "42%",
+                "Median GPA": "3.51",
+                "Median LSAT": "160"
+            }
+        },
+        {
+            "School": "Baylor University",
+            "Ranking": "55",
+            "Statistics": {
+                "Acceptance Rate": "29%",
+                "Median GPA": "3.53",
+                "Median LSAT": "160"
+            }
+        },
+        {
+            "School": "Case Western Reserve University",
+            "Ranking": "57",
+            "Statistics": {
+                "Acceptance Rate": "42%",
+                "Median GPA": "3.44",
+                "Median LSAT": "159"
+            }
+        },
+        {
+            "School": "Georgia State University",
+            "Ranking": "57",
+            "Statistics": {
+                "Acceptance Rate": "28%",
+                "Median GPA": "3.4",
+                "Median LSAT": "158"
+            }
+        },
+        {
+            "School": "University of Nebraska Lincoln",
+            "Ranking": "57",
+            "Statistics": {
+                "Acceptance Rate": "62%",
+                "Median GPA": "3.65",
+                "Median LSAT": "156"
+            }
+        },
+        {
+            "School": "University of Cincinnati",
+            "Ranking": "60",
+            "Statistics": {
+                "Acceptance Rate": "58%",
+                "Median GPA": "3.59",
+                "Median LSAT": "155"
+            }
+        },
+        {
+            "School": "University of Kentucky",
+            "Ranking": "60",
+            "Statistics": {
+                "Acceptance Rate": "60%",
+                "Median GPA": "3.42",
+                "Median LSAT": "155"
+            }
+        },
+        {
+            "School": "University of New Mexico",
+            "Ranking": "60",
+            "Statistics": {
+                "Acceptance Rate": "42%",
+                "Median GPA": "3.47",
+                "Median LSAT": "154"
+            }
+        },
+        {
+            "School": "University of Miami",
+            "Ranking": "60",
+            "Statistics": {
+                "Acceptance Rate": "54%",
+                "Median GPA": "3.36",
+                "Median LSAT": "157"
+            }
+        },
+        {
+            "School": "University of Oklahoma",
+            "Ranking": "60",
+            "Statistics": {
+                "Acceptance Rate": "49%",
+                "Median GPA": "3.56",
+                "Median LSAT": "157"
+            }
+        },
+        {
+            "School": "University of Connecticut",
+            "Ranking": "65",
+            "Statistics": {
+                "Acceptance Rate": "51%",
+                "Median GPA": "3.34",
+                "Median LSAT": "156"
+            }
+        },
+        {
+            "School": "University of Tennessee Knoxville",
+            "Ranking": "65",
+            "Statistics": {
+                "Acceptance Rate": "37%",
+                "Median GPA": "3.64",
+                "Median LSAT": "158"
+            }
+        },
+        {
+            "School": "Seton Hall University",
+            "Ranking": "65",
+            "Statistics": {
+                "Acceptance Rate": "49%",
+                "Median GPA": "3.42",
+                "Median LSAT": "156"
+            }
+        },
+        {
+            "School": "Pepperdine University",
+            "Ranking": "65",
+            "Statistics": {
+                "Acceptance Rate": "49%",
+                "Median GPA": "3.6",
+                "Median LSAT": "159"
+            }
+        },
+        {
+            "School": "Loyola Law School",
+            "Ranking": "65",
+            "Statistics": {
+                "Acceptance Rate": "42%",
+                "Median GPA": "3.51",
+                "Median LSAT": "159"
+            }
+        },
+        {
+            "School": "University of Kansas",
+            "Ranking": "65",
+            "Statistics": {
+                "Acceptance Rate": "66%",
+                "Median GPA": "3.42",
+                "Median LSAT": "156"
+            }
+        },
+        {
+            "School": "University of Missouri Columbia",
+            "Ranking": "65",
+            "Statistics": {
+                "Acceptance Rate": "59%",
+                "Median GPA": "3.41",
+                "Median LSAT": "157"
+            }
+        },
+        {
+            "School": "Loyola University Chicago",
+            "Ranking": "72",
+            "Statistics": {
+                "Acceptance Rate": "54%",
+                "Median GPA": "3.34",
+                "Median LSAT": "158"
+            }
+        },
+        {
+            "School": "University of Denver",
+            "Ranking": "72",
+            "Statistics": {
+                "Acceptance Rate": "45%",
+                "Median GPA": "3.43",
+                "Median LSAT": "157"
+            }
+        },
+        {
+            "School": "St. John's University",
+            "Ranking": "74",
+            "Statistics": {
+                "Acceptance Rate": "41%",
+                "Median GPA": "3.54",
+                "Median LSAT": "158"
+            }
+        },
+        {
+            "School": "Villanova University",
+            "Ranking": "74",
+            "Statistics": {
+                "Acceptance Rate": "49%",
+                "Median GPA": "3.57",
+                "Median LSAT": "156"
+            }
+        },
+        {
+            "School": "Cardozo-Yeshiva University",
+            "Ranking": "74",
+            "Statistics": {
+                "Acceptance Rate": "52%",
+                "Median GPA": "3.42",
+                "Median LSAT": "159"
+            }
+        },
+        {
+            "School": "University of San Diego",
+            "Ranking": "74",
+            "Statistics": {
+                "Acceptance Rate": "40%",
+                "Median GPA": "3.52",
+                "Median LSAT": "159"
+            }
+        },
+        {
+            "School": "University of Nevada Las Vegas",
+            "Ranking": "78",
+            "Statistics": {
+                "Acceptance Rate": "32%",
+                "Median GPA": "3.32",
+                "Median LSAT": "158"
+            }
+        },
+        {
+            "School": "University of Pittsburgh",
+            "Ranking": "78",
+            "Statistics": {
+                "Acceptance Rate": "37%",
+                "Median GPA": "3.36",
+                "Median LSAT": "156"
+            }
+        },
+        {
+            "School": "University of Oregon",
+            "Ranking": "78",
+            "Statistics": {
+                "Acceptance Rate": "49%",
+                "Median GPA": "3.48",
+                "Median LSAT": "157"
+            }
+        },
+        {
+            "School": "American University",
+            "Ranking": "78",
+            "Statistics": {
+                "Acceptance Rate": "59%",
+                "Median GPA": "3.29",
+                "Median LSAT": "155"
+            }
+        },
+        {
+            "School": "Northeastern University",
+            "Ranking": "82",
+            "Statistics": {
+                "Acceptance Rate": "35%",
+                "Median GPA": "3.55",
+                "Median LSAT": "161"
+            }
+        },
+        {
+            "School": "University of New Hampshire School of Law",
+            "Ranking": "82",
+            "Statistics": {
+                "Acceptance Rate": "0%",
+                "Median GPA": "0.0",
+                "Median LSAT": "0"
+            }
+        },
+        {
+            "School": "Louisiana State - Baton Rouge",
+            "Ranking": "82",
+            "Statistics": {
+                "Acceptance Rate": "59%",
+                "Median GPA": "3.48",
+                "Median LSAT": "155"
+            }
+        },
+        {
+            "School": "St. Louis University",
+            "Ranking": "82",
+            "Statistics": {
+                "Acceptance Rate": "65%",
+                "Median GPA": "3.44",
+                "Median LSAT": "155"
+            }
+        },
+        {
+            "School": "Chicago-Kent College of Law (IIT)",
+            "Ranking": "86",
+            "Statistics": {
+                "Acceptance Rate": "62%",
+                "Median GPA": "3.36",
+                "Median LSAT": "156"
+            }
+        },
+        {
+            "School": "Syracuse University",
+            "Ranking": "86",
+            "Statistics": {
+                "Acceptance Rate": "55%",
+                "Median GPA": "3.33",
+                "Median LSAT": "154"
+            }
+        },
+        {
+            "School": "University of Arkansas Fayetteville",
+            "Ranking": "86",
+            "Statistics": {
+                "Acceptance Rate": "67%",
+                "Median GPA": "3.37",
+                "Median LSAT": "154"
+            }
+        },
+        {
+            "School": "University of Tulsa",
+            "Ranking": "86",
+            "Statistics": {
+                "Acceptance Rate": "37%",
+                "Median GPA": "3.31",
+                "Median LSAT": "154"
+            }
+        },
+        {
+            "School": "University of Hawaii",
+            "Ranking": "92",
+            "Statistics": {
+                "Acceptance Rate": "37%",
+                "Median GPA": "3.27",
+                "Median LSAT": "154"
+            }
+        },
+        {
+            "School": "University of Louisville",
+            "Ranking": "92",
+            "Statistics": {
+                "Acceptance Rate": "68%",
+                "Median GPA": "3.39",
+                "Median LSAT": "154"
+            }
+        },
+        {
+            "School": "Lewis and Clark College",
+            "Ranking": "92",
+            "Statistics": {
+                "Acceptance Rate": "59%",
+                "Median GPA": "3.32",
+                "Median LSAT": "158"
+            }
+        },
+        {
+            "School": "University of South Carolina",
+            "Ranking": "92",
+            "Statistics": {
+                "Acceptance Rate": "59%",
+                "Median GPA": "3.3",
+                "Median LSAT": "154"
+            }
+        },
+        {
+            "School": "Rutgers Law School",
+            "Ranking": "92",
+            "Statistics": {
+                "Acceptance Rate": "48%",
+                "Median GPA": "3.28",
+                "Median LSAT": "155"
+            }
+        },
+        {
+            "School": "Wayne State University",
+            "Ranking": "97",
+            "Statistics": {
+                "Acceptance Rate": "52%",
+                "Median GPA": "3.42",
+                "Median LSAT": "157"
+            }
+        },
+        {
+            "School": "Brooklyn Law School",
+            "Ranking": "97",
+            "Statistics": {
+                "Acceptance Rate": "52%",
+                "Median GPA": "3.36",
+                "Median LSAT": "155"
+            }
+        },
+        {
+            "School": "West Virginia University",
+            "Ranking": "97",
+            "Statistics": {
+                "Acceptance Rate": "53%",
+                "Median GPA": "3.35",
+                "Median LSAT": "153"
+            }
+        },
+        {
+            "School": "Michigan State College of Law",
+            "Ranking": "100",
+            "Statistics": {
+                "Acceptance Rate": "46%",
+                "Median GPA": "3.46",
+                "Median LSAT": "154"
+            }
+        },
+        {
+            "School": "Indiana University Robert H. McKinney School of Law",
+            "Ranking": "100",
+            "Statistics": {
+                "Acceptance Rate": "70%",
+                "Median GPA": "3.34",
+                "Median LSAT": "152"
+            }
+        },
+        {
+            "School": "University at Buffalo",
+            "Ranking": "100",
+            "Statistics": {
+                "Acceptance Rate": "52%",
+                "Median GPA": "3.44",
+                "Median LSAT": "154"
+            }
+        },
+        {
+            "School": "Catholic University of America",
+            "Ranking": "103",
+            "Statistics": {
+                "Acceptance Rate": "55%",
+                "Median GPA": "3.28",
+                "Median LSAT": "153"
+            }
+        },
+        {
+            "School": "Stetson University",
+            "Ranking": "103",
+            "Statistics": {
+                "Acceptance Rate": "51%",
+                "Median GPA": "3.27",
+                "Median LSAT": "154"
+            }
+        },
+        {
+            "School": "Florida International University",
+            "Ranking": "103",
+            "Statistics": {
+                "Acceptance Rate": "29%",
+                "Median GPA": "3.63",
+                "Median LSAT": "156"
+            }
+        },
+        {
+            "School": "Cleveland State University",
+            "Ranking": "106",
+            "Statistics": {
+                "Acceptance Rate": "47%",
+                "Median GPA": "3.4",
+                "Median LSAT": "153"
+            }
+        },
+        {
+            "School": "University of Mississippi",
+            "Ranking": "106",
+            "Statistics": {
+                "Acceptance Rate": "48%",
+                "Median GPA": "3.41",
+                "Median LSAT": "155"
+            }
+        },
+        {
+            "School": "Howard University",
+            "Ranking": "106",
+            "Statistics": {
+                "Acceptance Rate": "43%",
+                "Median GPA": "3.28",
+                "Median LSAT": "150"
+            }
+        },
+        {
+            "School": "Creighton University",
+            "Ranking": "106",
+            "Statistics": {
+                "Acceptance Rate": "79%",
+                "Median GPA": "3.25",
+                "Median LSAT": "152"
+            }
+        },
+        {
+            "School": "Washburn University",
+            "Ranking": "106",
+            "Statistics": {
+                "Acceptance Rate": "59%",
+                "Median GPA": "3.28",
+                "Median LSAT": "152"
+            }
+        },
+        {
+            "School": "University of Baltimore",
+            "Ranking": "111",
+            "Statistics": {
+                "Acceptance Rate": "54%",
+                "Median GPA": "3.29",
+                "Median LSAT": "152"
+            }
+        },
+        {
+            "School": "Drexel University",
+            "Ranking": "111",
+            "Statistics": {
+                "Acceptance Rate": "54%",
+                "Median GPA": "3.31",
+                "Median LSAT": "155"
+            }
+        },
+        {
+            "School": "DePaul University",
+            "Ranking": "111",
+            "Statistics": {
+                "Acceptance Rate": "67%",
+                "Median GPA": "3.34",
+                "Median LSAT": "152"
+            }
+        },
+        {
+            "School": "Duquesne University",
+            "Ranking": "111",
+            "Statistics": {
+                "Acceptance Rate": "65%",
+                "Median GPA": "3.45",
+                "Median LSAT": "152"
+            }
+        },
+        {
+            "School": "Hofstra University",
+            "Ranking": "111",
+            "Statistics": {
+                "Acceptance Rate": "60%",
+                "Median GPA": "3.39",
+                "Median LSAT": "153"
+            }
+        },
+        {
+            "School": "New York Law School",
+            "Ranking": "111",
+            "Statistics": {
+                "Acceptance Rate": "55%",
+                "Median GPA": "3.24",
+                "Median LSAT": "152"
+            }
+        },
+        {
+            "School": "University of Maine",
+            "Ranking": "111",
+            "Statistics": {
+                "Acceptance Rate": "69%",
+                "Median GPA": "3.37",
+                "Median LSAT": "152"
+            }
+        },
+        {
+            "School": "Seattle University",
+            "Ranking": "111",
+            "Statistics": {
+                "Acceptance Rate": "58%",
+                "Median GPA": "3.24",
+                "Median LSAT": "154"
+            }
+        },
+        {
+            "School": "University of Idaho",
+            "Ranking": "111",
+            "Statistics": {
+                "Acceptance Rate": "66%",
+                "Median GPA": "3.18",
+                "Median LSAT": "152"
+            }
+        },
+        {
+            "School": "Drake University",
+            "Ranking": "111",
+            "Statistics": {
+                "Acceptance Rate": "75%",
+                "Median GPA": "3.27",
+                "Median LSAT": "151"
+            }
+        },
+        {
+            "School": "Texas A&M University School of Law",
+            "Ranking": "111",
+            "Statistics": {
+                "Acceptance Rate": "20%",
+                "Median GPA": "3.38",
+                "Median LSAT": "156"
+            }
+        },
+        {
+            "School": "University of St. Thomas - Minneapolis",
+            "Ranking": "111",
+            "Statistics": {
+                "Acceptance Rate": "64%",
+                "Median GPA": "3.48",
+                "Median LSAT": "154"
+            }
+        },
+        {
+            "School": "Marquette University",
+            "Ranking": "123",
+            "Statistics": {
+                "Acceptance Rate": "77%",
+                "Median GPA": "3.19",
+                "Median LSAT": "152"
+            }
+        },
+        {
+            "School": "University of Montana",
+            "Ranking": "123",
+            "Statistics": {
+                "Acceptance Rate": "66%",
+                "Median GPA": "3.38",
+                "Median LSAT": "153"
+            }
+        },
+        {
+            "School": "University of Wyoming",
+            "Ranking": "123",
+            "Statistics": {
+                "Acceptance Rate": "78%",
+                "Median GPA": "3.22",
+                "Median LSAT": "151"
+            }
+        },
+        {
+            "School": "Mercer University",
+            "Ranking": "123",
+            "Statistics": {
+                "Acceptance Rate": "50%",
+                "Median GPA": "3.32",
+                "Median LSAT": "152"
+            }
+        },
+        {
+            "School": "Texas Tech University",
+            "Ranking": "123",
+            "Statistics": {
+                "Acceptance Rate": "54%",
+                "Median GPA": "3.39",
+                "Median LSAT": "154"
+            }
+        },
+        {
+            "School": "University of Missouri Kansas City",
+            "Ranking": "123",
+            "Statistics": {
+                "Acceptance Rate": "57%",
+                "Median GPA": "3.27",
+                "Median LSAT": "152"
+            }
+        },
+        {
+            "School": "Albany Law School of Union University",
+            "Ranking": "129",
+            "Statistics": {
+                "Acceptance Rate": "62%",
+                "Median GPA": "3.23",
+                "Median LSAT": "151"
+            }
+        },
+        {
+            "School": "Santa Clara University",
+            "Ranking": "129",
+            "Statistics": {
+                "Acceptance Rate": "61%",
+                "Median GPA": "3.23",
+                "Median LSAT": "155"
+            }
+        },
+        {
+            "School": "Vermont Law School",
+            "Ranking": "132",
+            "Statistics": {
+                "Acceptance Rate": "71%",
+                "Median GPA": "3.21",
+                "Median LSAT": "151"
+            }
+        },
+        {
+            "School": "Quinnipiac University",
+            "Ranking": "132",
+            "Statistics": {
+                "Acceptance Rate": "63%",
+                "Median GPA": "3.42",
+                "Median LSAT": "152"
+            }
+        },
+        {
+            "School": "Gonzaga University",
+            "Ranking": "132",
+            "Statistics": {
+                "Acceptance Rate": "66%",
+                "Median GPA": "3.25",
+                "Median LSAT": "153"
+            }
+        },
+        {
+            "School": "Willamette University",
+            "Ranking": "132",
+            "Statistics": {
+                "Acceptance Rate": "67%",
+                "Median GPA": "3.15",
+                "Median LSAT": "153"
+            }
+        },
+        {
+            "School": "University of Akron",
+            "Ranking": "136",
+            "Statistics": {
+                "Acceptance Rate": "63%",
+                "Median GPA": "3.25",
+                "Median LSAT": "152"
+            }
+        },
+        {
+            "School": "Pace University",
+            "Ranking": "136",
+            "Statistics": {
+                "Acceptance Rate": "63%",
+                "Median GPA": "3.22",
+                "Median LSAT": "150"
+            }
+        },
+        {
+            "School": "Chapman University",
+            "Ranking": "136",
+            "Statistics": {
+                "Acceptance Rate": "47%",
+                "Median GPA": "3.33",
+                "Median LSAT": "156"
+            }
+        },
+        {
+            "School": "University of Arkansas Little Rock",
+            "Ranking": "136",
+            "Statistics": {
+                "Acceptance Rate": "49%",
+                "Median GPA": "3.25",
+                "Median LSAT": "150"
+            }
+        },
+        {
+            "School": "Loyola University New Orleans",
+            "Ranking": "140",
+            "Statistics": {
+                "Acceptance Rate": "76%",
+                "Median GPA": "3.15",
+                "Median LSAT": "151"
+            }
+        },
+        {
+            "School": "Hamline University",
+            "Ranking": "140",
+            "Statistics": {
+                "Acceptance Rate": "62%",
+                "Median GPA": "3.25",
+                "Median LSAT": "152"
+            }
+        },
+        {
+            "School": "University of South Dakota",
+            "Ranking": "143",
+            "Statistics": {
+                "Acceptance Rate": "64%",
+                "Median GPA": "3.36",
+                "Median LSAT": "147"
+            }
+        },
+        {
+            "School": "Campbell University",
+            "Ranking": "144",
+            "Statistics": {
+                "Acceptance Rate": "62%",
+                "Median GPA": "3.24",
+                "Median LSAT": "152"
+            }
+        },
+        {
+            "School": "Northern Illinois University",
+            "Ranking": "144",
+            "Statistics": {
+                "Acceptance Rate": "65%",
+                "Median GPA": "3.05",
+                "Median LSAT": "148"
+            }
+        },
+        {
+            "School": "University of Toledo",
+            "Ranking": "144",
+            "Statistics": {
+                "Acceptance Rate": "68%",
+                "Median GPA": "3.27",
+                "Median LSAT": "151"
+            }
+        },
+        {
+            "School": "University of the Pacific",
+            "Ranking": "144",
+            "Statistics": {
+                "Acceptance Rate": "72%",
+                "Median GPA": "3.15",
+                "Median LSAT": "151"
+            }
+        },
+        {
+            "School": "Oklahoma City University",
+            "Ranking": "144",
+            "Statistics": {
+                "Acceptance Rate": "72%",
+                "Median GPA": "3.13",
+                "Median LSAT": "148"
+            }
+        },
+        {
+            "School": "University of North Dakota",
+            "Ranking": "144",
+            "Statistics": {
+                "Acceptance Rate": "68%",
+                "Median GPA": "3.2",
+                "Median LSAT": "148"
+            }
+        }
+    ]
+}
