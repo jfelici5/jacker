@@ -16,7 +16,6 @@ rates = []
 lsats = []
 gpas = []
 
-
 #scraps data for first seven pages
 for j in range(0, 7):
     
@@ -26,6 +25,7 @@ for j in range(0, 7):
         xpathone_schools = '//*[@id="schools_list"]/table/tbody/tr['
         xpathtwo_schools = str(i) + ']/td[1]'
         xpath_schools = xpathone_schools + xpathtwo_schools
+        xpath_link = xpath_schools + "/a"
         
         #ranking column
         xpathone_ranking = '//*[@id="schools_list"]/table/tbody/tr['
@@ -47,6 +47,8 @@ for j in range(0, 7):
         xpathtwo_gpa = str(i) + ']/td[5]'
         xpath_gpa = xpathone_gpa + xpathtwo_gpa
         
+        time.sleep(2)
+
         for tr in driver.find_elements_by_class_name("scllist"):
             rows_schools = tr.find_element_by_xpath(xpath_schools)
             rows_ranking = tr.find_element_by_xpath(xpath_ranking)
@@ -61,7 +63,6 @@ for j in range(0, 7):
 
     time.sleep(2) #waits for "next page" button to become clickable
     driver.find_element_by_class_name("""next_page""").click()
-    time.sleep(2)
 
 #handles the last page (different index)
 def last_page_handler():
@@ -72,22 +73,22 @@ def last_page_handler():
         #school column
         xpathone_schools = '//*[@id="schools_list"]/table/tbody/tr['
         xpathtwo_schools = str(i) + ']/td[1]'
-        xpath_schools = xpathone_schools + xpathtwo_schools
+        xpath_schools = xpathone_schools + xpathtwo_schools #used for iterating x_path
         
         #ranking column
         xpathone_ranking = '//*[@id="schools_list"]/table/tbody/tr['
         xpathtwo_ranking = str(i) + ']/td[2]'
-        xpath_ranking = xpathone_ranking + xpathtwo_ranking
+        xpath_ranking = xpathone_ranking + xpathtwo_ranking #used for iterating x_path
         
         #acceptance rate
         xpathone_rate = '//*[@id="schools_list"]/table/tbody/tr['
         xpathtwo_rate = str(i) + ']/td[3]'
-        xpath_rate = xpathone_rate + xpathtwo_rate
+        xpath_rate = xpathone_rate + xpathtwo_rate #used for iterating x_path
         
         #median lsat
         xpathone_lsat= '//*[@id="schools_list"]/table/tbody/tr['
         xpathtwo_lsat = str(i) + ']/td[4]'
-        xpath_lsat = xpathone_lsat + xpathtwo_lsat
+        xpath_lsat = xpathone_lsat + xpathtwo_lsat #used for iterating x_path
         
         #median gpa
         xpathone_gpa = '//*[@id="schools_list"]/table/tbody/tr['
@@ -110,8 +111,9 @@ last_page_handler()
 
 stats = [{"School" : schools[i],
         "Ranking" : rankings[i],
-        "Statistics" : {"Acceptance Rate" : rates[i], "Median GPA" : gpas[i],"Median LSAT" : lsats[i]}} for i in range(len(schools))]
+        "Statistics" : {
+        "Acceptance Rate" : rates[i], "Median GPA" : gpas[i],"Median LSAT" : lsats[i]}} for i in range(len(schools))]
 
-print(json.dumps({"Admissions Statistics" : stats}))
+print(json.dumps({"Admissions Statistics" : stats}, indent = 4))
 
 driver.quit()
