@@ -7,7 +7,706 @@
                 "Acceptance Rate": "10%",
                 "Median GPA": "3.93",
                 "Median LSAT": "173"
-            }
+            },
+            
+            "User Statistics": [
+                {
+                    "User": "plzacceptm3 N",
+                    "Results": {
+                        "GPA": "3.65",
+                        "LSAT": "173",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "Jdhopeful0224",
+                    "Results": {
+                        "GPA": "3.94",
+                        "LSAT": "170",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "tootankhanum",
+                    "Results": {
+                        "GPA": "3.75",
+                        "LSAT": "169",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "Chicaaa U N",
+                    "Results": {
+                        "GPA": "3.7",
+                        "LSAT": "163",
+                        "Status": "Accepted"
+                    }
+                },
+                {
+                    "User": "DaddyTrump",
+                    "Results": {
+                        "GPA": "3.8",
+                        "LSAT": "178",
+                        "Status": "Accepted A"
+                    }
+                },
+                {
+                    "User": "realjerseydevil",
+                    "Results": {
+                        "GPA": "3.8",
+                        "LSAT": "172",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "Lazy_Lawyer",
+                    "Results": {
+                        "GPA": "4.13",
+                        "LSAT": "174",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "HughesNet",
+                    "Results": {
+                        "GPA": "4.0",
+                        "LSAT": "177",
+                        "Status": "Accepted A"
+                    }
+                },
+                {
+                    "User": "dobbyisafreeelf",
+                    "Results": {
+                        "GPA": "3.6",
+                        "LSAT": "177",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "almondbutter96",
+                    "Results": {
+                        "GPA": "4.01",
+                        "LSAT": "174",
+                        "Status": "Accepted A"
+                    }
+                },
+                {
+                    "User": "mangocactus U",
+                    "Results": {
+                        "GPA": "3.81",
+                        "LSAT": "165",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "bellisperen",
+                    "Results": {
+                        "GPA": "3.96",
+                        "LSAT": "173",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "kslj",
+                    "Results": {
+                        "GPA": "3.96",
+                        "LSAT": "172",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "auntieNJ U",
+                    "Results": {
+                        "GPA": "3.79",
+                        "LSAT": "170",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "snail987",
+                    "Results": {
+                        "GPA": "3.8",
+                        "LSAT": "178",
+                        "Status": "Accepted A"
+                    }
+                },
+                {
+                    "User": "ruby",
+                    "Results": {
+                        "GPA": "4.13",
+                        "LSAT": "173",
+                        "Status": "Accepted A"
+                    }
+                },
+                {
+                    "User": "thevroad",
+                    "Results": {
+                        "GPA": "4.07",
+                        "LSAT": "178",
+                        "Status": "Accepted A"
+                    }
+                },
+                {
+                    "User": "tooneeds",
+                    "Results": {
+                        "GPA": "3.96",
+                        "LSAT": "171",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "SASgood",
+                    "Results": {
+                        "GPA": "3.77",
+                        "LSAT": "174",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "justdroppingin U",
+                    "Results": {
+                        "GPA": "3.83",
+                        "LSAT": "175",
+                        "Status": "Accepted"
+                    }
+                },
+                {
+                    "User": "thorngwen",
+                    "Results": {
+                        "GPA": "3.88",
+                        "LSAT": "180",
+                        "Status": "Waitlisted W"
+                    }
+                },
+                {
+                    "User": "lastperson",
+                    "Results": {
+                        "GPA": "3.8",
+                        "LSAT": "171",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "zkanand",
+                    "Results": {
+                        "GPA": "3.8",
+                        "LSAT": "172",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "prisonerofmarzipan",
+                    "Results": {
+                        "GPA": "4.0",
+                        "LSAT": "176",
+                        "Status": "Accepted A"
+                    }
+                },
+                {
+                    "User": "dnotedprocess U",
+                    "Results": {
+                        "GPA": "3.84",
+                        "LSAT": "167",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "omgplsloveme",
+                    "Results": {
+                        "GPA": "3.87",
+                        "LSAT": "175",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "polarbearpete",
+                    "Results": {
+                        "GPA": "3.82",
+                        "LSAT": "171",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "purfectic",
+                    "Results": {
+                        "GPA": "4.07",
+                        "LSAT": "177",
+                        "Status": "Waitlisted W"
+                    }
+                },
+                {
+                    "User": "cutt",
+                    "Results": {
+                        "GPA": "3.78",
+                        "LSAT": "164",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "Magnamirium",
+                    "Results": {
+                        "GPA": "4.04",
+                        "LSAT": "173",
+                        "Status": "Waitlisted W"
+                    }
+                },
+                {
+                    "User": "flume",
+                    "Results": {
+                        "GPA": "3.78",
+                        "LSAT": "172",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "bansi248",
+                    "Results": {
+                        "GPA": "3.98",
+                        "LSAT": "170",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "tseliot32 N",
+                    "Results": {
+                        "GPA": "3.81",
+                        "LSAT": "171",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "charlesives95",
+                    "Results": {
+                        "GPA": "3.98",
+                        "LSAT": "174",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "WhatIsLife U",
+                    "Results": {
+                        "GPA": "3.83",
+                        "LSAT": "162",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "purplerainboots",
+                    "Results": {
+                        "GPA": "3.9",
+                        "LSAT": "175",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "judgebug",
+                    "Results": {
+                        "GPA": "3.9",
+                        "LSAT": "172",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "sonnyvision U",
+                    "Results": {
+                        "GPA": "3.44",
+                        "LSAT": "174",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "Press_F U",
+                    "Results": {
+                        "GPA": "3.76",
+                        "LSAT": "162",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "GRE_only_applicant",
+                    "Results": {
+                        "GPA": "3.9",
+                        "LSAT": "120",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "mangoturtles",
+                    "Results": {
+                        "GPA": "3.83",
+                        "LSAT": "176",
+                        "Status": "Accepted"
+                    }
+                },
+                {
+                    "User": "TIDL",
+                    "Results": {
+                        "GPA": "3.96",
+                        "LSAT": "176",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "malkamus",
+                    "Results": {
+                        "GPA": "4.07",
+                        "LSAT": "177",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "egn2020",
+                    "Results": {
+                        "GPA": "3.92",
+                        "LSAT": "175",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "Someth1ngW1cked",
+                    "Results": {
+                        "GPA": "4.0",
+                        "LSAT": "178",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "AdLibitum",
+                    "Results": {
+                        "GPA": "3.9",
+                        "LSAT": "173",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "awkwardanglerfish",
+                    "Results": {
+                        "GPA": "4.0",
+                        "LSAT": "164",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "milac I",
+                    "Results": {
+                        "GPA": "3.81",
+                        "LSAT": "176",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "classof23hopeful U",
+                    "Results": {
+                        "GPA": "3.95",
+                        "LSAT": "157",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "Clairebear24",
+                    "Results": {
+                        "GPA": "4.0",
+                        "LSAT": "162",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "bid4law U",
+                    "Results": {
+                        "GPA": "3.4",
+                        "LSAT": "165",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "themeerkat U",
+                    "Results": {
+                        "GPA": "3.83",
+                        "LSAT": "164",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "BairnOwl",
+                    "Results": {
+                        "GPA": "3.76",
+                        "LSAT": "173",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "AlTehiKe",
+                    "Results": {
+                        "GPA": "3.74",
+                        "LSAT": "175",
+                        "Status": "Pending"
+                    }
+                },
+                {
+                    "User": "table34 U",
+                    "Results": {
+                        "GPA": "3.52",
+                        "LSAT": "163",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "pgxy I",
+                    "Results": {
+                        "GPA": "4.09",
+                        "LSAT": "176",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "natg1 U",
+                    "Results": {
+                        "GPA": "3.62",
+                        "LSAT": "169",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "mlawker N",
+                    "Results": {
+                        "GPA": "4.01",
+                        "LSAT": "172",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "internal_scream",
+                    "Results": {
+                        "GPA": "3.93",
+                        "LSAT": "171",
+                        "Status": "Pending"
+                    }
+                },
+                {
+                    "User": "antleo",
+                    "Results": {
+                        "GPA": "3.96",
+                        "LSAT": "170",
+                        "Status": "Pending"
+                    }
+                },
+                {
+                    "User": "jeanbaptiste I U",
+                    "Results": {
+                        "GPA": "3.81",
+                        "LSAT": "171",
+                        "Status": "Accepted"
+                    }
+                },
+                {
+                    "User": "good_odds_2020 U",
+                    "Results": {
+                        "GPA": "3.5",
+                        "LSAT": "166",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "theYU",
+                    "Results": {
+                        "GPA": "3.94",
+                        "LSAT": "178",
+                        "Status": "Pending"
+                    }
+                },
+                {
+                    "User": "FaLawLaw",
+                    "Results": {
+                        "GPA": "3.72",
+                        "LSAT": "152",
+                        "Status": "Pending"
+                    }
+                },
+                {
+                    "User": "GoodVibesAnd160Highs U",
+                    "Results": {
+                        "GPA": "3.68",
+                        "LSAT": "166",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "Sanit\u00e4ter",
+                    "Results": {
+                        "GPA": "4.12",
+                        "LSAT": "163",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "alexw",
+                    "Results": {
+                        "GPA": "3.76",
+                        "LSAT": "164",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "mss753",
+                    "Results": {
+                        "GPA": "3.81",
+                        "LSAT": "168",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "lawschooljedi N",
+                    "Results": {
+                        "GPA": "3.81",
+                        "LSAT": "173",
+                        "Status": "Pending"
+                    }
+                },
+                {
+                    "User": "mlwhite395",
+                    "Results": {
+                        "GPA": "3.83",
+                        "LSAT": "172",
+                        "Status": "Pending"
+                    }
+                },
+                {
+                    "User": "mc2298",
+                    "Results": {
+                        "GPA": "3.95",
+                        "LSAT": "163",
+                        "Status": "Pending"
+                    }
+                },
+                {
+                    "User": "wrigley1642",
+                    "Results": {
+                        "GPA": "3.8",
+                        "LSAT": "168",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "ShadowofAristocles",
+                    "Results": {
+                        "GPA": "3.98",
+                        "LSAT": "174",
+                        "Status": "Pending"
+                    }
+                },
+                {
+                    "User": "slowe13",
+                    "Results": {
+                        "GPA": "3.9",
+                        "LSAT": "166",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "Brairies",
+                    "Results": {
+                        "GPA": "3.8",
+                        "LSAT": "177",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "TornBetweenTwo",
+                    "Results": {
+                        "GPA": "3.85",
+                        "LSAT": "169",
+                        "Status": "Pending"
+                    }
+                },
+                {
+                    "User": "DysfunctionalStingyP",
+                    "Results": {
+                        "GPA": "3.81",
+                        "LSAT": "176",
+                        "Status": "Pending"
+                    }
+                },
+                {
+                    "User": "weoutchea U",
+                    "Results": {
+                        "GPA": "3.66",
+                        "LSAT": "162",
+                        "Status": "Pending"
+                    }
+                },
+                {
+                    "User": "blues15",
+                    "Results": {
+                        "GPA": "3.7",
+                        "LSAT": "167",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "j1997 U",
+                    "Results": {
+                        "GPA": "3.98",
+                        "LSAT": "174",
+                        "Status": "Pending"
+                    }
+                },
+                {
+                    "User": "lkeaner351",
+                    "Results": {
+                        "GPA": "3.95",
+                        "LSAT": "169",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "rowerbutt",
+                    "Results": {
+                        "GPA": "3.8",
+                        "LSAT": "173",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "08navy N",
+                    "Results": {
+                        "GPA": "3.65",
+                        "LSAT": "161",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "lawschooldr3am3er",
+                    "Results": {
+                        "GPA": "3.8",
+                        "LSAT": "168",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "unbrella",
+                    "Results": {
+                        "GPA": "3.77",
+                        "LSAT": "175",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "izumpi U",
+                    "Results": {
+                        "GPA": "4.0",
+                        "LSAT": "178",
+                        "Status": "Accepted"
+                    }
+                },
+                {
+                    "User": "SceptileDysfunction",
+                    "Results": {
+                        "GPA": "4.0",
+                        "LSAT": "178",
+                        "Status": "Pending"
+                    }
+                }
+            ]
         },
         {
             "School": "Harvard University",
@@ -16,7 +715,810 @@
                 "Acceptance Rate": "18%",
                 "Median GPA": "3.86",
                 "Median LSAT": "173"
-            }
+            },
+
+            "User Statistics": [
+                {
+                    "User": "livingonprayers",
+                    "Results": {
+                        "GPA": "3.6",
+                        "LSAT": "162",
+                        "Status": "Waitlisted W"
+                    }
+                },
+                {
+                    "User": "natg1 U",
+                    "Results": {
+                        "GPA": "3.62",
+                        "LSAT": "169",
+                        "Status": "WL, Rejected"
+                    }
+                },
+                {
+                    "User": "akinoyin I U",
+                    "Results": {
+                        "GPA": "3.98",
+                        "LSAT": "161",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "thevoyagein",
+                    "Results": {
+                        "GPA": "3.0",
+                        "LSAT": "173",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "Doctor Pepper U",
+                    "Results": {
+                        "GPA": "3.38",
+                        "LSAT": "175",
+                        "Status": "WL, Rejected"
+                    }
+                },
+                {
+                    "User": "sonnyvision U",
+                    "Results": {
+                        "GPA": "3.44",
+                        "LSAT": "174",
+                        "Status": "WL, Accepted A"
+                    }
+                },
+                {
+                    "User": "JDLAW2020 U",
+                    "Results": {
+                        "GPA": "4.0",
+                        "LSAT": "165",
+                        "Status": "Waitlisted W"
+                    }
+                },
+                {
+                    "User": "DaddyTrump",
+                    "Results": {
+                        "GPA": "3.8",
+                        "LSAT": "178",
+                        "Status": "Accepted W"
+                    }
+                },
+                {
+                    "User": "realjerseydevil",
+                    "Results": {
+                        "GPA": "3.8",
+                        "LSAT": "172",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "Pedrlawguy",
+                    "Results": {
+                        "GPA": "3.95",
+                        "LSAT": "170",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "unbrella",
+                    "Results": {
+                        "GPA": "3.77",
+                        "LSAT": "175",
+                        "Status": "Waitlisted W"
+                    }
+                },
+                {
+                    "User": "nyer78",
+                    "Results": {
+                        "GPA": "3.98",
+                        "LSAT": "172",
+                        "Status": "WL, Accepted A"
+                    }
+                },
+                {
+                    "User": "wahinekoa",
+                    "Results": {
+                        "GPA": "3.66",
+                        "LSAT": "176",
+                        "Status": "Accepted A"
+                    }
+                },
+                {
+                    "User": "aholida123",
+                    "Results": {
+                        "GPA": "3.5",
+                        "LSAT": "172",
+                        "Status": "WL, Rejected"
+                    }
+                },
+                {
+                    "User": "Lazy_Lawyer",
+                    "Results": {
+                        "GPA": "4.13",
+                        "LSAT": "174",
+                        "Status": "WL, Accepted A"
+                    }
+                },
+                {
+                    "User": "RedDevilsSeaborn",
+                    "Results": {
+                        "GPA": "3.99",
+                        "LSAT": "173",
+                        "Status": "WL, Accepted A"
+                    }
+                },
+                {
+                    "User": "jasonwujiaxi",
+                    "Results": {
+                        "GPA": "4.03",
+                        "LSAT": "167",
+                        "Status": "Accepted A"
+                    }
+                },
+                {
+                    "User": "highkingmargot",
+                    "Results": {
+                        "GPA": "3.98",
+                        "LSAT": "170",
+                        "Status": "Waitlisted W"
+                    }
+                },
+                {
+                    "User": "GRE_only_applicant",
+                    "Results": {
+                        "GPA": "3.9",
+                        "LSAT": "120",
+                        "Status": "Waitlisted W"
+                    }
+                },
+                {
+                    "User": "dobbyisafreeelf",
+                    "Results": {
+                        "GPA": "3.6",
+                        "LSAT": "177",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "midwestlawyerguy",
+                    "Results": {
+                        "GPA": "3.94",
+                        "LSAT": "169",
+                        "Status": "Waitlisted W"
+                    }
+                },
+                {
+                    "User": "almondbutter96",
+                    "Results": {
+                        "GPA": "4.01",
+                        "LSAT": "174",
+                        "Status": "Accepted W"
+                    }
+                },
+                {
+                    "User": "tseliot32 N",
+                    "Results": {
+                        "GPA": "3.81",
+                        "LSAT": "171",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "mangocactus U",
+                    "Results": {
+                        "GPA": "3.81",
+                        "LSAT": "165",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "tdesgross N",
+                    "Results": {
+                        "GPA": "3.73",
+                        "LSAT": "173",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "BrittAlexMoore U",
+                    "Results": {
+                        "GPA": "2.16",
+                        "LSAT": "156",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "bellisperen",
+                    "Results": {
+                        "GPA": "3.96",
+                        "LSAT": "173",
+                        "Status": "Accepted A"
+                    }
+                },
+                {
+                    "User": "tagovailoa",
+                    "Results": {
+                        "GPA": "3.09",
+                        "LSAT": "170",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "TIDL",
+                    "Results": {
+                        "GPA": "3.96",
+                        "LSAT": "176",
+                        "Status": "Accepted W"
+                    }
+                },
+                {
+                    "User": "fliplawyer",
+                    "Results": {
+                        "GPA": "4.0",
+                        "LSAT": "180",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "kslj",
+                    "Results": {
+                        "GPA": "3.96",
+                        "LSAT": "172",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "aspiringabogada U",
+                    "Results": {
+                        "GPA": "3.6",
+                        "LSAT": "155",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "is-january-too-late",
+                    "Results": {
+                        "GPA": "3.94",
+                        "LSAT": "171",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "auntieNJ U",
+                    "Results": {
+                        "GPA": "3.79",
+                        "LSAT": "170",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "snail987",
+                    "Results": {
+                        "GPA": "3.8",
+                        "LSAT": "178",
+                        "Status": "Accepted W"
+                    }
+                },
+                {
+                    "User": "ruby",
+                    "Results": {
+                        "GPA": "4.13",
+                        "LSAT": "173",
+                        "Status": "Accepted"
+                    }
+                },
+                {
+                    "User": "thevroad",
+                    "Results": {
+                        "GPA": "4.07",
+                        "LSAT": "178",
+                        "Status": "Accepted W"
+                    }
+                },
+                {
+                    "User": "tooneeds",
+                    "Results": {
+                        "GPA": "3.96",
+                        "LSAT": "171",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "Catania U",
+                    "Results": {
+                        "GPA": "3.77",
+                        "LSAT": "160",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "On_my_way U",
+                    "Results": {
+                        "GPA": "3.88",
+                        "LSAT": "166",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "tormund N",
+                    "Results": {
+                        "GPA": "3.7",
+                        "LSAT": "174",
+                        "Status": "Accepted A"
+                    }
+                },
+                {
+                    "User": "SASgood",
+                    "Results": {
+                        "GPA": "3.77",
+                        "LSAT": "174",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "08navy N",
+                    "Results": {
+                        "GPA": "3.65",
+                        "LSAT": "161",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "charlesives95",
+                    "Results": {
+                        "GPA": "3.98",
+                        "LSAT": "174",
+                        "Status": "Accepted A"
+                    }
+                },
+                {
+                    "User": "justdroppingin U",
+                    "Results": {
+                        "GPA": "3.83",
+                        "LSAT": "175",
+                        "Status": "Accepted"
+                    }
+                },
+                {
+                    "User": "thorngwen",
+                    "Results": {
+                        "GPA": "3.88",
+                        "LSAT": "180",
+                        "Status": "Accepted W"
+                    }
+                },
+                {
+                    "User": "lastperson",
+                    "Results": {
+                        "GPA": "3.8",
+                        "LSAT": "171",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "lawschoolmaybe43210 N",
+                    "Results": {
+                        "GPA": "3.2",
+                        "LSAT": "164",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "lawschoolgoals20",
+                    "Results": {
+                        "GPA": "3.94",
+                        "LSAT": "170",
+                        "Status": "Accepted A"
+                    }
+                },
+                {
+                    "User": "zkanand",
+                    "Results": {
+                        "GPA": "3.8",
+                        "LSAT": "172",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "prisonerofmarzipan",
+                    "Results": {
+                        "GPA": "4.0",
+                        "LSAT": "176",
+                        "Status": "Waitlisted W"
+                    }
+                },
+                {
+                    "User": "dnotedprocess U",
+                    "Results": {
+                        "GPA": "3.84",
+                        "LSAT": "167",
+                        "Status": "Accepted"
+                    }
+                },
+                {
+                    "User": "bansi248",
+                    "Results": {
+                        "GPA": "3.98",
+                        "LSAT": "170",
+                        "Status": "Accepted"
+                    }
+                },
+                {
+                    "User": "malkamus",
+                    "Results": {
+                        "GPA": "4.07",
+                        "LSAT": "177",
+                        "Status": "Accepted"
+                    }
+                },
+                {
+                    "User": "lawapp2020 N",
+                    "Results": {
+                        "GPA": "3.43",
+                        "LSAT": "173",
+                        "Status": "Waitlisted W"
+                    }
+                },
+                {
+                    "User": "omgplsloveme",
+                    "Results": {
+                        "GPA": "3.87",
+                        "LSAT": "175",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "thecampanilebells I",
+                    "Results": {
+                        "GPA": "3.95",
+                        "LSAT": "162",
+                        "Status": "Accepted A"
+                    }
+                },
+                {
+                    "User": "polarbearpete",
+                    "Results": {
+                        "GPA": "3.82",
+                        "LSAT": "171",
+                        "Status": "Accepted A"
+                    }
+                },
+                {
+                    "User": "Papa Cove",
+                    "Results": {
+                        "GPA": "3.84",
+                        "LSAT": "169",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "Magnamirium",
+                    "Results": {
+                        "GPA": "4.04",
+                        "LSAT": "173",
+                        "Status": "Accepted A"
+                    }
+                },
+                {
+                    "User": "ShadowofAristocles",
+                    "Results": {
+                        "GPA": "3.98",
+                        "LSAT": "174",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "Chicaaa U N",
+                    "Results": {
+                        "GPA": "3.7",
+                        "LSAT": "163",
+                        "Status": "Accepted"
+                    }
+                },
+                {
+                    "User": "BairnOwl",
+                    "Results": {
+                        "GPA": "3.76",
+                        "LSAT": "173",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "purplerainboots",
+                    "Results": {
+                        "GPA": "3.9",
+                        "LSAT": "175",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "sjchang",
+                    "Results": {
+                        "GPA": "3.88",
+                        "LSAT": "172",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "gravytrain19",
+                    "Results": {
+                        "GPA": "3.56",
+                        "LSAT": "169",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "trilogy83",
+                    "Results": {
+                        "GPA": "3.74",
+                        "LSAT": "170",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "rowerbutt",
+                    "Results": {
+                        "GPA": "3.8",
+                        "LSAT": "173",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "turnonthejetz",
+                    "Results": {
+                        "GPA": "3.56",
+                        "LSAT": "160",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "judgebug",
+                    "Results": {
+                        "GPA": "3.9",
+                        "LSAT": "172",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "mks12",
+                    "Results": {
+                        "GPA": "4.0",
+                        "LSAT": "157",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "paige929",
+                    "Results": {
+                        "GPA": "3.55",
+                        "LSAT": "171",
+                        "Status": "Pending"
+                    }
+                },
+                {
+                    "User": "futureoneell U",
+                    "Results": {
+                        "GPA": "3.5",
+                        "LSAT": "160",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "Military_Mike N",
+                    "Results": {
+                        "GPA": "3.66",
+                        "LSAT": "168",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "jsawyerladylawyer",
+                    "Results": {
+                        "GPA": "3.68",
+                        "LSAT": "169",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "z1920",
+                    "Results": {
+                        "GPA": "3.1",
+                        "LSAT": "171",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "toads",
+                    "Results": {
+                        "GPA": "3.97",
+                        "LSAT": "175",
+                        "Status": "Accepted"
+                    }
+                },
+                {
+                    "User": "j1997 U",
+                    "Results": {
+                        "GPA": "3.98",
+                        "LSAT": "174",
+                        "Status": "Accepted A"
+                    }
+                },
+                {
+                    "User": "hyuni509 I",
+                    "Results": {
+                        "GPA": "3.85",
+                        "LSAT": "169",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "INFJgirl",
+                    "Results": {
+                        "GPA": "3.5",
+                        "LSAT": "168",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "da4qiang2",
+                    "Results": {
+                        "GPA": "3.42",
+                        "LSAT": "179",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "isthisyi N",
+                    "Results": {
+                        "GPA": "3.91",
+                        "LSAT": "171",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "dylhm1224",
+                    "Results": {
+                        "GPA": "3.85",
+                        "LSAT": "174",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "Press_F U",
+                    "Results": {
+                        "GPA": "3.76",
+                        "LSAT": "162",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "lunabundle",
+                    "Results": {
+                        "GPA": "3.85",
+                        "LSAT": "169",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "pkennet U",
+                    "Results": {
+                        "GPA": "4.0",
+                        "LSAT": "172",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "Danielzzz929",
+                    "Results": {
+                        "GPA": "4.09",
+                        "LSAT": "173",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "neverbeenabovethelaw U",
+                    "Results": {
+                        "GPA": "3.8",
+                        "LSAT": "167",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "advokatalina",
+                    "Results": {
+                        "GPA": "3.73",
+                        "LSAT": "166",
+                        "Status": "Waitlisted"
+                    }
+                },
+                {
+                    "User": "texasgorl",
+                    "Results": {
+                        "GPA": "3.2",
+                        "LSAT": "164",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "beastlaw U",
+                    "Results": {
+                        "GPA": "4.0",
+                        "LSAT": "169",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "mymajorwasamistake",
+                    "Results": {
+                        "GPA": "3.71",
+                        "LSAT": "169",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "alexw",
+                    "Results": {
+                        "GPA": "3.76",
+                        "LSAT": "164",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "amicuscurious U",
+                    "Results": {
+                        "GPA": "3.95",
+                        "LSAT": "172",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "pk888",
+                    "Results": {
+                        "GPA": "3.88",
+                        "LSAT": "166",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "dreamingoflawschool1",
+                    "Results": {
+                        "GPA": "3.75",
+                        "LSAT": "160",
+                        "Status": "Pending"
+                    }
+                },
+                {
+                    "User": "heregoesnothing69 U",
+                    "Results": {
+                        "GPA": "3.25",
+                        "LSAT": "161",
+                        "Status": "Rejected"
+                    }
+                },
+                {
+                    "User": "egn2020",
+                    "Results": {
+                        "GPA": "3.92",
+                        "LSAT": "175",
+                        "Status": "Accepted"
+                    }
+                },
+                {
+                    "User": "AdLibitum",
+                    "Results": {
+                        "GPA": "3.9",
+                        "LSAT": "173",
+                        "Status": "Accepted"
+                    }
+                },
+                {
+                    "User": "purfectic",
+                    "Results": {
+                        "GPA": "4.07",
+                        "LSAT": "177",
+                        "Status": "Accepted"
+                    }
+                }
+            ]
         },
         {
             "School": "Stanford University",
